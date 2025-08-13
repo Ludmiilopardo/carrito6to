@@ -170,10 +170,20 @@ function cargarproductos() {
              <h2 id="nombreproducto"> ${producto.nombre}</h2>
              <img src="" alt="" id="${producto.imagen}">
             <h3 id="precioproducto"> $0 ${producto.precio.toLocaleString()}</h3>
-            <button id="btncomprar">Comprar</button>
+            <button id="btncomprar" onclick ="verdetalle(${producto.id})">Comprar</button>
         `
         document.getElementById("boxproductos").appendChild(parrafo);
     }
 }
 
 cargarproductos()
+
+function verdetalle(id) {
+  let productoseleccionado = productos.find(producto => producto.id == id );
+  let productojson = JSON.stringify(productoseleccionado);
+  localStorage.setItem("detalle", productojson);
+  window.location.href="detalle.html"
+
+
+   
+}
