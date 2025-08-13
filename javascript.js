@@ -169,7 +169,7 @@ function cargarproductos() {
         parrafo.innerHTML = `
              <h2 id="nombreproducto"> ${producto.nombre}</h2>
              <img src="" alt="" id="${producto.imagen}">
-            <h3 id="precioproducto"> $0</h3>
+            <h3 id="precioproducto"> $0 ${producto.precio.toLocaleString()}</h3>
             <button id="btncomprar">Comprar</button>
         `
         document.getElementById("boxproductos").appendChild(parrafo);
