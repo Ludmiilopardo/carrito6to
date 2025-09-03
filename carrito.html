@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Detalle de Compra</h1>
+        <h1>Carrito de Compra</h1>
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -21,7 +21,26 @@
             </ul>
         </nav>
     </header>
-    <main id="boxproductos">
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <td>Imagen</td>
+                    <td>Cantidad</td>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Total</td>
+                    <td>Editar</td>
+                </tr>
+            </thead>
+            <tbody id="listadeproductos">
+
+            </tbody>
+        </table>
+        <div id="totalcompra">
+         <p id="totalgasto"></p>
+        </div>
+
     </main>
     <footer>
         <h3>Carrito de Compra</h3>
@@ -29,6 +48,6 @@
         <p>Teléfono: 0539454545</p>
     </footer>
 
-    <script src="detalle.js"></script>
+    <script src="carrito.js"></script>
 </body>
 </html>

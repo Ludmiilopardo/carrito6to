@@ -1,189 +1,192 @@
 const productos = [
   {
     id: 1,
-    nombre: "Refrigerador Samsung",
-    imagen: "https://ejemplo.com/img/refrigerador-samsung.jpg",
-    descripcion: "Refrigerador de 350 litros con tecnología No Frost.",
-    stock: 15,
-    precio: 750
+    nombre: "Vela de soja lavanda",
+    imagen: "img/vela.jpg",
+    descripcion: "Vela aromática de cera de soja con aceite esencial de lavanda.",
+    stock: 20,
+    precio: 1500
   },
   {
     id: 2,
-    nombre: "Lavadora LG",
-    imagen: "https://ejemplo.com/img/lavadora-lg.jpg",
-    descripcion: "Lavadora de carga frontal con 8 programas de lavado.",
-    stock: 10,
-    precio: 420
+    nombre: "Jabón natural de caléndula",
+    imagen: "img/jabóncaléndula.jpg",
+    descripcion: "Jabón artesanal elaborado con extracto de caléndula, ideal para piel sensible.",
+    stock: 30,
+    precio: 850
   },
   {
     id: 3,
-    nombre: "Microondas Panasonic",
-    imagen: "https://ejemplo.com/img/microondas-panasonic.jpg",
-    descripcion: "Microondas con función descongelar y 1000W de potencia.",
-    stock: 20,
-    precio: 120
+    nombre: "Maceta pintada a mano - Cactus",
+    imagen: "img/macetacactus.jpg",
+    descripcion: "Maceta de cerámica pintada a mano con diseño de cactus.",
+    stock: 15,
+    precio: 1800
   },
   {
     id: 4,
-    nombre: "Aspiradora Dyson",
-    imagen: "https://ejemplo.com/img/aspiradora-dyson.jpg",
-    descripcion: "Aspiradora inalámbrica con gran poder de succión.",
-    stock: 8,
-    precio: 300
+    nombre: "Collar de piedra volcánica",
+    imagen: "img/collar.jpg",
+    descripcion: "Collar artesanal con cuentas de piedra volcánica y dije de cobre.",
+    stock: 10,
+    precio: 2200
   },
   {
     id: 5,
-    nombre: "Televisor LG 55\"",
-    imagen: "https://ejemplo.com/img/televisor-lg-55.jpg",
-    descripcion: "Televisor LED 4K con HDR y Smart TV.",
-    stock: 12,
-    precio: 680
+    nombre: "Cuaderno reciclado A5",
+    imagen: "img/cuaderno.jpg",
+    descripcion: "Cuaderno artesanal con tapa dura hecha con cartón reciclado.",
+    stock: 25,
+    precio: 1000
   },
   {
     id: 6,
-    nombre: "Horno Eléctrico Oster",
-    imagen: "https://ejemplo.com/img/horno-oster.jpg",
-    descripcion: "Horno eléctrico con capacidad para 20 litros.",
-    stock: 14,
-    precio: 150
+    nombre: "Vela en taza vintage",
+    imagen: "img/velaentaza.jpg",
+    descripcion: "Vela aromática en taza de loza antigua reutilizada, aroma vainilla.",
+    stock: 12,
+    precio: 2000
   },
   {
     id: 7,
-    nombre: "Cafetera Nespresso",
-    imagen: "https://ejemplo.com/img/cafetera-nespresso.jpg",
-    descripcion: "Cafetera de cápsulas con sistema rápido de calentamiento.",
-    stock: 25,
-    precio: 90
-  },
-  {
-    id: 8,
-    nombre: "Plancha Philips",
-    imagen: "https://ejemplo.com/img/plancha-philips.jpg",
-    descripcion: "Plancha de vapor con suela antiadherente.",
-    stock: 30,
-    precio: 45
-  },
-  {
-    id: 9,
-    nombre: "Ventilador Dyson",
-    imagen: "https://ejemplo.com/img/ventilador-dyson.jpg",
-    descripcion: "Ventilador sin aspas con control remoto.",
-    stock: 5,
-    precio: 350
-  },
-  {
-    id: 10,
-    nombre: "Licuadora Oster",
-    imagen: "https://ejemplo.com/img/licuadora-oster.jpg",
-    descripcion: "Licuadora de 600W con jarra de vidrio.",
-    stock: 18,
-    precio: 60
-  },
-  {
-    id: 11,
-    nombre: "Extractor de jugos Philips",
-    imagen: "https://ejemplo.com/img/extractor-philips.jpg",
-    descripcion: "Extractor lento para conservar vitaminas.",
-    stock: 22,
-    precio: 130
-  },
-  {
-    id: 12,
-    nombre: "Secadora Whirlpool",
-    imagen: "https://ejemplo.com/img/secadora-whirlpool.jpg",
-    descripcion: "Secadora con sensor de humedad y múltiples ciclos.",
-    stock: 9,
-    precio: 400
-  },
-  {
-    id: 13,
-    nombre: "Refrigerador Mabe",
-    imagen: "https://ejemplo.com/img/refrigerador-mabe.jpg",
-    descripcion: "Refrigerador duplex con eficiencia energética A.",
-    stock: 16,
+    nombre: "Pulsera de hilo encerado",
+    imagen: "img/pulseras.jpg",
+    descripcion: "Pulsera tejida a mano en hilo encerado, ajustable.",
+    stock: 40,
     precio: 650
   },
   {
+    id: 8,
+    nombre: "Jabón de carbón activado",
+    imagen: "img/jabonactivado.jpg",
+    descripcion: "Jabón detox con carbón activado, ideal para piel grasa.",
+    stock: 28,
+    precio: 950
+  },
+  {
+    id: 9,
+    nombre: "Set de 3 velas decorativas",
+    imagen: "img/artesanias/set-velas.jpg",
+    descripcion: "Velas artesanales con diseño artístico, aromas surtidos.",
+    stock: 8,
+    precio: 3200
+  },
+  {
+    id: 10,
+    nombre: "Cuaderno artesanal bordado",
+    imagen: "img/artesanias/cuaderno-bordado.jpg",
+    descripcion: "Cuaderno hecho a mano con portada bordada en hilo de algodón.",
+    stock: 16,
+    precio: 1900
+  },
+  {
+    id: 11,
+    nombre: "Taza de cerámica esmaltada",
+    imagen: "img/artesanias/taza-ceramica.jpg",
+    descripcion: "Taza hecha a torno con esmalte brillante azul profundo.",
+    stock: 14,
+    precio: 2300
+  },
+  {
+    id: 12,
+    nombre: "Vela de soja en frasco ámbar",
+    imagen: "img/artesanias/vela-ambar.jpg",
+    descripcion: "Vela artesanal con aroma a eucalipto y citronela, ideal para exteriores.",
+    stock: 18,
+    precio: 1700
+  },
+  {
+    id: 13,
+    nombre: "Aros de arcilla polimérica",
+    imagen: "img/artesanias/aros-arcilla.jpg",
+    descripcion: "Aros coloridos hechos a mano con formas abstractas.",
+    stock: 20,
+    precio: 1200
+  },
+  {
     id: 14,
-    nombre: "Estufa de gas Whirlpool",
-    imagen: "https://ejemplo.com/img/estufa-whirlpool.jpg",
-    descripcion: "Estufa de 6 quemadores con horno grande.",
-    stock: 11,
-    precio: 550
+    nombre: "Caja decorativa con decoupage",
+    imagen: "img/artesanias/caja-decoupage.jpg",
+    descripcion: "Caja de madera con técnica de decoupage floral.",
+    stock: 6,
+    precio: 2100
   },
   {
     id: 15,
-    nombre: "Tostadora Black+Decker",
-    imagen: "https://ejemplo.com/img/tostadora-bd.jpg",
-    descripcion: "Tostadora de 2 rebanadas con control de dorado.",
-    stock: 28,
-    precio: 25
+    nombre: "Collar con resina y flores secas",
+    imagen: "img/artesanias/collar-resina.jpg",
+    descripcion: "Colgante de resina con flores naturales encapsuladas.",
+    stock: 9,
+    precio: 2500
   },
   {
     id: 16,
-    nombre: "Batidora KitchenAid",
-    imagen: "https://ejemplo.com/img/batidora-ka.jpg",
-    descripcion: "Batidora de pedestal con múltiples accesorios.",
-    stock: 7,
-    precio: 280
+    nombre: "Jabón exfoliante de café",
+    imagen: "img/artesanias/jabon-cafe.jpg",
+    descripcion: "Jabón natural con granos de café molido para exfoliar.",
+    stock: 22,
+    precio: 900
   },
   {
     id: 17,
-    nombre: "Calentador de agua Rheem",
-    imagen: "https://ejemplo.com/img/calentador-rheem.jpg",
-    descripcion: "Calentador eléctrico con capacidad para 50 litros.",
-    stock: 13,
-    precio: 320
+    nombre: "Cuaderno Kraft con sellos botánicos",
+    imagen: "img/artesanias/cuaderno-sellos.jpg",
+    descripcion: "Cuaderno cosido a mano con papel reciclado y sellos botánicos.",
+    stock: 17,
+    precio: 1100
   },
   {
     id: 18,
-    nombre: "Freidora de aire Philips",
-    imagen: "https://ejemplo.com/img/freidora-philips.jpg",
-    descripcion: "Freidora sin aceite con tecnología Rapid Air.",
-    stock: 19,
-    precio: 140
+    nombre: "Porta sahumerio de cerámica",
+    imagen: "img/artesanias/porta-sahumerio.jpg",
+    descripcion: "Soporte para sahumerios hecho a mano, varios colores.",
+    stock: 20,
+    precio: 700
   },
   {
     id: 19,
-    nombre: "Congelador Whirlpool",
-    imagen: "https://ejemplo.com/img/congelador-whirlpool.jpg",
-    descripcion: "Congelador horizontal con gran capacidad.",
-    stock: 10,
-    precio: 550
+    nombre: "Jabón con pétalos de rosa",
+    imagen: "img/artesanias/jabon-rosa.jpg",
+    descripcion: "Jabón artesanal con pétalos de rosa y aceite de almendras.",
+    stock: 30,
+    precio: 980
   },
   {
     id: 20,
-    nombre: "Cafetera Italiana Bialetti",
-    imagen: "https://ejemplo.com/img/cafetera-bialetti.jpg",
-    descripcion: "Cafetera tradicional para estufa, 6 tazas.",
-    stock: 35,
-    precio: 30
+    nombre: "Pack aromático: vela + sahumerios",
+    imagen: "img/artesanias/pack-aroma.jpg",
+    descripcion: "Set artesanal para relajación: vela + sahumerios naturales.",
+    stock: 10,
+    precio: 3400
   }
 ];
 
-function cargarproductos() {
+function actualizar() {
+  let carrito = localStorage.getItem("totalproductos")
+    document.getElementById("totalproducto").innerHTML = carrito
+}
 
-    for( let producto of productos){
-        let parrafo = document.createElement("div");
-        parrafo.id="boxproducto";
+actualizar()
+
+function cargarproductos() {
+    for (let producto of productos) {
+        let parrafo = document.createElement("div")
+        parrafo.id = "boxproducto"
         parrafo.innerHTML = `
-             <h2 id="nombreproducto"> ${producto.nombre}</h2>
-             <img src="" alt="" id="${producto.imagen}">
-            <h3 id="precioproducto"> $0 ${producto.precio.toLocaleString()}</h3>
-            <button id="btncomprar" onclick ="verdetalle(${producto.id})">Comprar</button>
+                    <h2 id="nombreproducto">${producto.nombre}</h2>
+                    <img src="${producto.imagen}" alt="" id="${producto.imagen}">
+                    <h3 id="precioproducto">$${producto.precio}</h3>
+                    <button id="btncomprar" onclick="verdetalle(${producto.id})">Ver</button>
         `
-        document.getElementById("boxproductos").appendChild(parrafo);
+        document.getElementById("boxproductos").appendChild(parrafo)
     }
 }
 
 cargarproductos()
 
 function verdetalle(id) {
-  let productoseleccionado = productos.find(producto => producto.id == id );
-  let productojson = JSON.stringify(productoseleccionado);
-  localStorage.setItem("detalle", productojson);
-  window.location.href="detalle.html"
-
-
-   
+  let productoseleccionado = productos.find(producto => producto.id == id)
+  let productojson = JSON.stringify(productoseleccionado)
+  localStorage.setItem("detalle", productojson)
+  window.location.href = "detalle.html"
 }
