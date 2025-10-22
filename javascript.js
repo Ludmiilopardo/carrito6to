@@ -1,3 +1,18 @@
+async function subirProductos() {
+  try {
+    const coleccionRef = collection(db, "productos"); // nombre de la colección
+    for (const producto of productos) {
+      await addDoc(coleccionRef, producto);
+      console.log(`Producto ${producto.nombre} agregado con éxito.`);
+    }
+  } catch (error) {
+    console.error("Error al subir productos:", error);
+  }
+}
+
+// Ejecutar la carga
+subirProductos();
+
 const productos = [
   {
     id: 1,
