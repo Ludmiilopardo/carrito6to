@@ -17,7 +17,7 @@ const productos = [
   {
     id: 1,
     nombre:  " Sartenes",
-    imagen: "img/sartenes.jpg",
+    imagen: "img/cacerolaMickey.webp",
     descripcion: "Cacerola esmaltada de Mickey Cookware Disney, Cocinar será aún más placentero con estas cacerolas esmaltadas de Mickey Mouse. Son del tamaño ideal para cualquier tipo de preparación.",
     stock: 20,
     precio: 1500
