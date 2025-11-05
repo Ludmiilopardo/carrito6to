@@ -16,65 +16,65 @@ subirProductos();
 const productos = [
   {
     id: 1,
-    nombre: "Vela de soja lavanda",
-    imagen: "img/vela.jpg",
-    descripcion: "Vela aromática de cera de soja con aceite esencial de lavanda.",
+    nombre:  " Sartenes",
+    imagen: "img/sartenes.jpg",
+    descripcion: "Cacerola esmaltada de Mickey Cookware Disney, Cocinar será aún más placentero con estas cacerolas esmaltadas de Mickey Mouse. Son del tamaño ideal para cualquier tipo de preparación.",
     stock: 20,
     precio: 1500
   },
   {
     id: 2,
-    nombre: "Jabón natural de caléndula",
-    imagen: "img/jabóncaléndula.jpg",
-    descripcion: "Jabón artesanal elaborado con extracto de caléndula, ideal para piel sensible.",
+    nombre: "Porta Utensilios",
+    imagen: "img/portautensilios.jpg",
+    descripcion: "Porta Utensilios Mouse Mickey Cocinero. Porta utensilios de cerámica. Mide 15 cm de alto y 11 cm de diámetro. ",
     stock: 30,
     precio: 850
   },
   {
     id: 3,
-    nombre: "Maceta pintada a mano - Cactus",
-    imagen: "img/macetacactus.jpg",
-    descripcion: "Maceta de cerámica pintada a mano con diseño de cactus.",
+    nombre: "Organizador de tapa y platos.",
+    imagen: "img/utensilioscocina.jpg",
+    descripcion: " Descubre el Organizador de Tapas y platos de Mickey Mouse. Su encantadora base con forma de los pies de Mickey le dará un toque de encanto a tu mesa.",
     stock: 15,
     precio: 1800
   },
   {
     id: 4,
-    nombre: "Collar de piedra volcánica",
-    imagen: "img/collar.jpg",
-    descripcion: "Collar artesanal con cuentas de piedra volcánica y dije de cobre.",
+    nombre: "Taza de cerámica oficial.",
+    imagen: "img/tazamickey.jpg",
+    descripcion: "Con la taza de Mickey y sus amigos, experimentarás el verdadero placer de disfrutar de un delicioso desayuno o una merienda. La base es plana y resistente al desgaste. ",
     stock: 10,
     precio: 2200
   },
   {
     id: 5,
-    nombre: "Cuaderno reciclado A5",
-    imagen: "img/cuaderno.jpg",
-    descripcion: "Cuaderno artesanal con tapa dura hecha con cartón reciclado.",
+    nombre: "Bowl Mickey Mouse",
+    imagen: "img/bowl.jpg",
+    descripcion: "Bol con Mickey pintado",
     stock: 25,
     precio: 1000
   },
   {
     id: 6,
-    nombre: "Vela en taza vintage",
-    imagen: "img/velaentaza.jpg",
-    descripcion: "Vela aromática en taza de loza antigua reutilizada, aroma vainilla.",
+    nombre: "Espátula de silicona de Minnie Mouse",
+    imagen: "img/espatula.jpg",
+    descripcion: "diseño clásico con mango de madera,mide 12 pulgadas de largo, el tamaño perfecto para mezclar, raspar y recoger cualquier deliciosa golosina que estés horneando.",
     stock: 12,
     precio: 2000
   },
   {
     id: 7,
-    nombre: "Pulsera de hilo encerado",
-    imagen: "img/pulseras.jpg",
-    descripcion: "Pulsera tejida a mano en hilo encerado, ajustable.",
+    nombre: "Manoplas de horno de Disney",
+    imagen: "img/manopla.jpg",
+    descripcion: " resistentes al calor, mini guantes para horno con siluetas de Disney de silicona",
     stock: 40,
     precio: 650
   },
   {
     id: 8,
-    nombre: "Jabón de carbón activado",
-    imagen: "img/jabonactivado.jpg",
-    descripcion: "Jabón detox con carbón activado, ideal para piel grasa.",
+    nombre: " Tabla de cortar de madera.",
+    imagen: "img/tabladecortar.jpg",
+    descripcion: "Tabla de silicona, para cualquier tipo de uso.",
     stock: 28,
     precio: 950
   },
@@ -175,6 +175,7 @@ const productos = [
     precio: 3400
   }
 ];
+
 
 function actualizar() {
   let carrito = localStorage.getItem("totalproductos")
