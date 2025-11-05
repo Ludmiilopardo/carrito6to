@@ -25,7 +25,7 @@ const productos = [
   {
     id: 2,
     nombre: "Porta Utensilios",
-    imagen: "img/portautensilios.jpg",
+    imagen: "img/porteutensilios.jpg",
     descripcion: "Porta Utensilios Mouse Mickey Cocinero. Porta utensilios de cerámica. Mide 15 cm de alto y 11 cm de diámetro. ",
     stock: 30,
     precio: 850
@@ -33,7 +33,7 @@ const productos = [
   {
     id: 3,
     nombre: "Organizador de tapa y platos.",
-    imagen: "img/utensilioscocina.jpg",
+    imagen: "img/soporte.jpg",
     descripcion: " Descubre el Organizador de Tapas y platos de Mickey Mouse. Su encantadora base con forma de los pies de Mickey le dará un toque de encanto a tu mesa.",
     stock: 15,
     precio: 1800
