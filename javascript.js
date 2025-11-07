@@ -152,17 +152,17 @@ const productos = [
   },
   {
     id: 18,
-    nombre: "Porta sahumerio de cerámica",
+    nombre: "Posavasos Daisy",
     imagen: "img/Posavasos.jpeg",
-    descripcion: "Soporte para sahumerios hecho a mano, varios colores.",
+    descripcion: "Este set de 4 posavasos mantiene tus superficies secas y con estilo.",
     stock: 20,
     precio: 700
   },
   {
     id: 19,
-    nombre: "Jabón con pétalos de rosa",
+    nombre: "Delantal familiar de Ratatouille",
     imagen: "img/Delantal.jpeg",
-    descripcion: "Jabón artesanal con pétalos de rosa y aceite de almendras.",
+    descripcion: " Delantales cómodos y de alta calidad.",
     stock: 30,
     precio: 980
   },
