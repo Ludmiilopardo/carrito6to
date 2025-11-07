@@ -153,7 +153,7 @@ const productos = [
   {
     id: 18,
     nombre: "Porta sahumerio de cerámica",
-    imagen: "img/artesanias/porta-sahumerio.jpg",
+    imagen: "img/Donald.jpeg",
     descripcion: "Soporte para sahumerios hecho a mano, varios colores.",
     stock: 20,
     precio: 700
@@ -161,7 +161,7 @@ const productos = [
   {
     id: 19,
     nombre: "Jabón con pétalos de rosa",
-    imagen: "img/artesanias/jabon-rosa.jpg",
+    imagen: "img/Delantal.jpeg",
     descripcion: "Jabón artesanal con pétalos de rosa y aceite de almendras.",
     stock: 30,
     precio: 980
