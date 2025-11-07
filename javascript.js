@@ -137,7 +137,7 @@ const productos = [
   {
     id: 16,
     nombre: "Jabón exfoliante de café",
-    imagen: "img/artesanias/jabon-cafe.jpg",
+    imagen: "img/Hunny.jpeg",
     descripcion: "Jabón natural con granos de café molido para exfoliar.",
     stock: 22,
     precio: 900
@@ -145,7 +145,7 @@ const productos = [
   {
     id: 17,
     nombre: "Cuaderno Kraft con sellos botánicos",
-    imagen: "img/artesanias/cuaderno-sellos.jpg",
+    imagen: "img/Tetera.jpeg",
     descripcion: "Cuaderno cosido a mano con papel reciclado y sellos botánicos.",
     stock: 17,
     precio: 1100
