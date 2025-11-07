@@ -136,17 +136,17 @@ const productos = [
   },
   {
     id: 16,
-    nombre: "Jabón exfoliante de café",
+    nombre: "Tarro de miel esculpido de Winnie the Pooh",
     imagen: "img/Hunny.jpeg",
-    descripcion: "Jabón natural con granos de café molido para exfoliar.",
+    descripcion: "Taza de cerámica esculpida con Winnie the Pooh de Disney sentado sobre un tarro de miel.",
     stock: 22,
     precio: 900
   },
   {
     id: 17,
-    nombre: "Cuaderno Kraft con sellos botánicos",
+    nombre: "Tetera + taza Mad Tea Party",
     imagen: "img/Tetera.jpeg",
-    descripcion: "Cuaderno cosido a mano con papel reciclado y sellos botánicos.",
+    descripcion: "Tetera + taza inspirada en Alicia en el País de las Maravillas",
     stock: 17,
     precio: 1100
   },
