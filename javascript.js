@@ -105,7 +105,7 @@ const productos = [
   {
     id: 12,
     nombre: "Vela de soja en frasco ámbar",
-    imagen: "img/artesanias/vela-ambar.jpg",
+    imagen: "img/Utensiliosstich.jpeg",
     descripcion: "Vela artesanal con aroma a eucalipto y citronela, ideal para exteriores.",
     stock: 18,
     precio: 1700
@@ -113,7 +113,7 @@ const productos = [
   {
     id: 13,
     nombre: "Aros de arcilla polimérica",
-    imagen: "img/artesanias/aros-arcilla.jpg",
+    imagen: "img/Cremera.jpeg",
     descripcion: "Aros coloridos hechos a mano con formas abstractas.",
     stock: 20,
     precio: 1200
