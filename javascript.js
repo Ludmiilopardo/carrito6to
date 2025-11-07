@@ -80,9 +80,9 @@ const productos = [
   },
   {
     id: 9,
-    nombre: "Set de 3 velas decorativas",
+    nombre: "Tostadora Mickey Mouse Atma",
     imagen: "img/Tostadora.jpeg",
-    descripcion: "Velas artesanales con diseño artístico, aromas surtidos.",
+    descripcion: "Llevá la magia de Disney a tus mañanas con la Tostadora Atma Disney Mickey Negra, donde el estilo y la funcionalidad se unen para hacer de cada desayuno un momento especial..",
     stock: 8,
     precio: 3200
   },
