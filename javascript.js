@@ -121,7 +121,7 @@ const productos = [
   {
     id: 14,
     nombre: "Caja decorativa con decoupage",
-    imagen: "img/artesanias/caja-decoupage.jpg",
+    imagen: "img/BotellaDis.jpeg",
     descripcion: "Caja de madera con técnica de decoupage floral.",
     stock: 6,
     precio: 2100
@@ -129,7 +129,7 @@ const productos = [
   {
     id: 15,
     nombre: "Collar con resina y flores secas",
-    imagen: "img/artesanias/collar-resina.jpg",
+    imagen: "img/TazaCeni.jpeg",
     descripcion: "Colgante de resina con flores naturales encapsuladas.",
     stock: 9,
     precio: 2500
