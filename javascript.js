@@ -97,7 +97,7 @@ const productos = [
   {
     id: 11,
     nombre: "Taza de cerámica esmaltada",
-    imagen: "img/artesanias/taza-ceramica.jpg",
+    imagen: "img/Repasadores.jpeg",
     descripcion: "Taza hecha a torno con esmalte brillante azul profundo.",
     stock: 14,
     precio: 2300
