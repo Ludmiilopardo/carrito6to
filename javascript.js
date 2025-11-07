@@ -88,9 +88,9 @@ const productos = [
   },
   {
     id: 10,
-    nombre: "Cuaderno artesanal bordado",
+    nombre: "Taza Chip – La Bella y la Bestia",
     imagen: "img/Tazachip.jpeg",
-    descripcion: "Cuaderno hecho a mano con portada bordada en hilo de algodón.",
+    descripcion: "Diseño inspirado en Chip, el icónico personaje de la Bella y la Bestia de Disney. Producto realizado en cerámica.",
     stock: 16,
     precio: 1900
   },
