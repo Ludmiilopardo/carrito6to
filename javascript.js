@@ -168,9 +168,11 @@ const productos = [
   },
   {
     id: 20,
-    nombre: "Pack aromático: vela + sahumerios",
-    imagen: "img/artesanias/pack-aroma.jpg",
-    descripcion: "Set artesanal para relajación: vela + sahumerios naturales.",
+    nombre: "Set Bowl + Plato Disney Dumbo",
+    imagen: "img/Dumbo.jpeg",
+    descripcion: "El bowl y el plato de Dumbo no solo son funcionales, sino que también aportan un elemento decorativo a tu cocina. Añade un toque de alegría a tus comidas y haz que cada bocado sea memorable con este encantador set
+
+",
     stock: 10,
     precio: 3400
   }
