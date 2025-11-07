@@ -153,7 +153,7 @@ const productos = [
   {
     id: 18,
     nombre: "Porta sahumerio de cerámica",
-    imagen: "img/Donald.jpeg",
+    imagen: "img/Posavasos.jpeg",
     descripcion: "Soporte para sahumerios hecho a mano, varios colores.",
     stock: 20,
     precio: 700
