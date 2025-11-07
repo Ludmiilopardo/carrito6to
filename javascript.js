@@ -81,7 +81,7 @@ const productos = [
   {
     id: 9,
     nombre: "Set de 3 velas decorativas",
-    imagen: "img/artesanias/set-velas.jpg",
+    imagen: "img/Tostadora.jpeg",
     descripcion: "Velas artesanales con diseño artístico, aromas surtidos.",
     stock: 8,
     precio: 3200
