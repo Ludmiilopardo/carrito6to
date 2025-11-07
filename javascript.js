@@ -104,17 +104,17 @@ const productos = [
   },
   {
     id: 12,
-    nombre: "Vela de soja en frasco ámbar",
+    nombre: "Soporte para utensilios-Disney Stitch",
     imagen: "img/Utensiliosstich.jpeg",
-    descripcion: "Vela artesanal con aroma a eucalipto y citronela, ideal para exteriores.",
+    descripcion: "Paquete con organizador de cocina de 6.5 pulgadas y calcomanías",
     stock: 18,
     precio: 1700
   },
   {
     id: 13,
-    nombre: "Aros de arcilla polimérica",
+    nombre: "set de Cremera y azucarera",
     imagen: "img/Cremera.jpeg",
-    descripcion: "Aros coloridos hechos a mano con formas abstractas.",
+    descripcion: "Set de cremera y azucarera de porcelana gris con detalles dorados.",
     stock: 20,
     precio: 1200
   },
