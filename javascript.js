@@ -120,17 +120,17 @@ const productos = [
   },
   {
     id: 14,
-    nombre: "Caja decorativa con decoupage",
+    nombre: "Botella Termica DISNEY 600ml Alicia",
     imagen: "img/BotellaDis.jpeg",
-    descripcion: "Caja de madera con técnica de decoupage floral.",
+    descripcion: ".",
     stock: 6,
     precio: 2100
   },
   {
     id: 15,
-    nombre: "Collar con resina y flores secas",
+    nombre: "Taza de cerámica esculpida en 3D de Disney Cinderella",
     imagen: "img/TazaCeni.jpeg",
-    descripcion: "Colgante de resina con flores naturales encapsuladas.",
+    descripcion: " esta taza de cerámica,está diseñada para soportar la maldad de cualquier hermanastra engañadora.",
     stock: 9,
     precio: 2500
   },
