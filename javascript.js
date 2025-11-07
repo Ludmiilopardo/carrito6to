@@ -96,9 +96,9 @@ const productos = [
   },
   {
     id: 11,
-    nombre: "Taza de cerámica esmaltada",
+    nombre: "Set de Repasadores Mickey & Minnie",
     imagen: "img/Repasadores.jpeg",
-    descripcion: "Taza hecha a torno con esmalte brillante azul profundo.",
+    descripcion: "Set de repasadores Mickey & Minnie Contiene 2 repasadores Largo 60cm Ancho 38cm 100% Algodón Las imágenes son de carácter ilustrativo Licencia Oficial Disney",
     stock: 14,
     precio: 2300
   },
