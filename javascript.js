@@ -89,7 +89,7 @@ const productos = [
   {
     id: 10,
     nombre: "Cuaderno artesanal bordado",
-    imagen: "img/artesanias/cuaderno-bordado.jpg",
+    imagen: "img/Tazachip.jpeg",
     descripcion: "Cuaderno hecho a mano con portada bordada en hilo de algodón.",
     stock: 16,
     precio: 1900
